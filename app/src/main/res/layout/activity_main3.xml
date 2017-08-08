@@ -9,79 +9,79 @@
 
     <EditText
         android:id="@+id/det_nome"
-        android:text="det_nome"
-        android:layout_width="wrap_content"
+        android:hint="nome"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/det_endereco"
-        android:text="det_endereco"
-        android:layout_width="wrap_content"
+        android:hint="endereco"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/det_bairro"
-        android:text="det_nbairro"
-        android:layout_width="wrap_content"
+        android:hint="bairro"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/det_cidade"
-        android:text="det_ncidade"
-        android:layout_width="wrap_content"
+        android:hint="cidade"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/det_cnh"
-        android:text="det_cnh"
-        android:layout_width="wrap_content"
+        android:hint="cnh"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/det_telefone"
-        android:text="det_telefone"
-        android:layout_width="wrap_content"
+        android:hint="telefone"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/det_email"
-        android:text="det_email"
-        android:layout_width="wrap_content"
+        android:hint="email"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/det_latitude"
-        android:text="det_latitude"
-        android:layout_width="wrap_content"
+        android:hint="latitude"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/det_longitude"
-        android:text="det_longitude"
-        android:layout_width="wrap_content"
+        android:hint="longitude"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/btnSalvar"
-            android:text="salvar"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="salvar" />
 
         <Button
             android:id="@+id/btnDeletar"
-            android:text="deletar"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="deletar" />
 
         <Button
             android:id="@+id/btnEditar"
-            android:text="editar"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="editar" />
 
     </LinearLayout>
 
